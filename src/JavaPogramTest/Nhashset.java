@@ -1,4 +1,4 @@
-package programjava;
+package JavaPogramTest;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -9,11 +9,11 @@ public class Nhashset {
 		
 		HashSet<String> hashset1 = new HashSet<>();
 		String str ="hello java world my name is nandini gadhwal";
-		String word [] = str.split(str);
-		/*for (int i = 0; i < word.length; i++) {
+		String word [] = str.split("\\s");
+		for (int i = 0; i < word.length; i++) {
 		hashset1.add(word[i]);
 		}
-		System.out.println(hashset1);*/
+		System.out.println(hashset1);
 		//hashset1.forEach(s ->System.out.println(s+ " "));
 		//hashset1.add(word[str]);
 		//System.out.println(hashset1);
