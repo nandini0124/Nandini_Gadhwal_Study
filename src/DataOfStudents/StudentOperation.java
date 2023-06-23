@@ -1,65 +1,61 @@
-package Operation_Class;
+package DataOfStudents;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-
-public class Operation_Test_Class implements Method_Interface{
+public class StudentOperation implements StudentInterface {
 
 	@Override
-	public void printIntId() {
+	public void printIntId(int id) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void printCharV() {
+	public void printCharV(char ch) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void printFloatV() {
+	public void printFloatV(float num) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void printNameString() {
+	public void printNameString(String name) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void printNameArray() {
+	public void printNameArray(String sname) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void printDe() {
+	public void printDabl(double digite) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void printList() {
+	public void printList(String list) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void prinSet() {
+	public void printSet(String set) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void prinMap() {
+	public void printMap(String map) {
 		// TODO Auto-generated method stub
 		
 	}
 
 }
+
+	

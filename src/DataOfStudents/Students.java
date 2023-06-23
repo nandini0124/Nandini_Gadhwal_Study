@@ -1,4 +1,4 @@
-package Operation_Class;
+package DataOfStudents;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,19 +6,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Model_Test {
-	/*create pojo/DTO class
-	add all the variable type and geeter/setter
-	interfacae : print // listPrint// setprint// haspamprint//arryPrint
-	operation class
-	set all the type inside pojo..
-	call all the repsective method to print the value*/
+public class Students {
 	private int intId;
 	private char charV;
 	private float floatV;
-	private String nameString;
+	private transient String nameString;
 	private String nameArray[];
-	private double de;
+	private double dabl;
 	private List<String> list = new ArrayList<>();
 	private Set<String> set = new HashSet<>();
 	private HashMap<String, String> map = new HashMap<>();
@@ -52,11 +46,11 @@ public class Model_Test {
 	public void setNameArray(String[] nameArray) {
 		this.nameArray = nameArray;
 	}
-	public double getDe() {
-		return de;
+	public double getDabl() {
+		return dabl;
 	}
-	public void setDe(double de) {
-		this.de = de;
+	public void setDabl(double dabl) {
+		this.dabl = dabl;
 	}
 	public List<String> getList() {
 		return list;
@@ -77,52 +71,5 @@ public class Model_Test {
 		this.map = map;
 	}
 	
-	/*private int number;
-	private char charter;
-	private boolean bool;
-	private String name;
-	private String name1[];
-	private float f;*/
 	
-	/*public int getNumber() {
-		return number;
-	}
-	public void setNumber(int number) {
-		this.number = number;
-	}
-	public char getCharter() {
-		return charter;
-	}
-	public void setCharter(char charter) {
-		this.charter = charter;
-	}
-	public boolean isBool() {
-		return bool;
-	}
-	public void setBool(boolean bool) {
-		this.bool = bool;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String[] getName1() {
-		return name1;
-	}
-	public void setName1(String[] name1) {
-		this.name1 = name1;
-	}
-	public float getF() {
-		return f;
-	}
-	public void setF(float f) {
-		this.f = f;
-	}*/
-	
-	
-	
-
-
 }
